@@ -20,5 +20,12 @@ public class MainActivityTest {
     public void funAddTes() {
         assertEquals(10, 5+5);
     }
+    
+        @Test
+    public void funprodTest() {
+        assertEquals(20, 5*3);
+    }
+    
+    
 
 }
