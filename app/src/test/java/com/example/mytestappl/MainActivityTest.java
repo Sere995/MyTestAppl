@@ -18,7 +18,7 @@ public class MainActivityTest {
 
     @Test
     public void funAddTes() {
-        assertEquals(4, 1+3);
+        assertEquals(4, 1+1);
     }
 
 }
