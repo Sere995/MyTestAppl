@@ -40,4 +40,4 @@ jobs:
       # run tests!
       - run:
           name: Run Tests
-          command: ./gradle ExampleInstrumentedTest
+          command: ./gradlew ExampleInstrumentedTest
