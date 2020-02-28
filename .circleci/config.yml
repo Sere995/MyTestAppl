@@ -1,6 +1,8 @@
 version: 2
 jobs:
   build:
+    - run: yes | sdkmanager --licenses || exit 0
+    - run: yes | sdkmanager --update || exit 0
     working_directory: ~/code
     docker:
       - image: circleci/android:api-25-alpha
