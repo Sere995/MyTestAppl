@@ -19,6 +19,7 @@ public class MainActivityTest {
     @Before
     public void setUp() throws Exception {
         mActivity = mActivityTestRule.getActivity();
+        //comment
     }
 
     @Test
