@@ -19,4 +19,12 @@ public class ExampleUnitTest {
     public void addition_isNotCorrect(){
         assertEquals(4, 1+3);
     }
+
+   /* @Test
+    public void product_isNotCorrect() { assertEquals(10, 5*1); }*/
+
+    @Test
+    public void product_isCorrect() {
+        assertEquals(10, 5*2);
+    }
 }
